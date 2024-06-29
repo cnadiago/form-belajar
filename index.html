@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Belajar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{font-family: 'Segoe UI';background-color:ghostwhite;}
+        header{font-weight: 500;}
+             
+    </style>
+
+</head>
+    
+<body>
+    <header class="header-container">
+        <div class="profile-logo"></div>
+            <nav class="grid-container">
+                    <div class="grid-item"><a>Home</a></div>
+                    <div class="grid-item"><a>My Profile</a></div>
+                    <div class="grid-item"><a>Portofolio</a></div>
+                    <div class="grid-item"><a>Message Us</a></div>
+            </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <section>
+            <h1>Form Belajar</h1>
+            <h4>Ini adalah website latihan pertama</h4>        
+                <div class="column-container">
+                    <div class="column-left"><label for="Name">Nama</label></div>
+                    <div class="column-middle">:</div>
+                    <div class="column-right"><input id="Name" type="text"></div>
+                </div>
+                <div class="column-container">
+                    <div class="column-left"><label for="Bday">Tanggal Lahir</label></div>
+                    <div class="column-middle">:</div>
+                    <div class="column-right"><input id="Bday" type="date"></div>
+                </div>
+                <div class="column-container">
+                    <div class="column-left"><label for="Gender">Jenis Kelamin</label></div>
+                    <div class="column-middle">:</div>
+                    <div class="column-right">
+                        <input type="radio" id="Perempuan" name="Gender" value="Perempuan">
+                        <label for="Perempuan">Perempuan</label>
+                        <input type="radio" id="Laki-laki" name="Gender" value="Laki-laki">
+                        <label for="Laki-laki">Laki-laki</label>
+                    </div>
+                </div>
+                <br>
+                <div class="column-container">
+                    <div class="column-left"><label for="Note">Pesan</label></div>
+                    <div class="column-middle">:</div>
+                    <div class="column-right"><input id="Note" type="textarea"></div>
+                </div>
+                <div class="column-container">
+                    <button type="button" onclick="doSomething()">Submit</button>
+                </div>
+            </section>
+            <section>
+                <!-- Ini adalah tabel -->
+            </section>
+        </div>
+    </main>
+   
+</body>
+</html>
